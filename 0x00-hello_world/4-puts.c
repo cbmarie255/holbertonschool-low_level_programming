@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * TAKE THIS PLEASEEEEE!
+ * main - printing a message
+ *
+ * return - PLEASE
  */
 int main(void)
 {
