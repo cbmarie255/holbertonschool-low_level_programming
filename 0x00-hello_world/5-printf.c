@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main : Initiate 0
+ * main - just trying to work, no biggie
  *
- * Return : Always 0
+ * Return : Always 0 (successful)
  */
 int main(void)
 {
