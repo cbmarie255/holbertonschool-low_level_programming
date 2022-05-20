@@ -2,7 +2,7 @@
 /**
  * main - printing a message
  *
- * return - PLEASE
+ * return - 0
  */
 int main(void)
 {
