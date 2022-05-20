@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - just trying to work, no biggie
+ * main- just trying to work, no biggie
  *
- * Return : Always 0 (successful)
+ * Return: Always 0 (successful)
  */
 int main(void)
 {
