@@ -1,6 +1,6 @@
+#include<stdio.h>
 int main () {
-	puts (0x22) 
-       puts ("Programming is like bulding a multilingual puzzle");
-getchar ();
+	fputs (0x22) 
+        puts ("Programming is like bulding a multilingual puzzle");
 return 0;
 }
