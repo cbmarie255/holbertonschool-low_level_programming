@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Initiate
+ * main : Initiate 0
  *
  * Return : Always 0
  */
