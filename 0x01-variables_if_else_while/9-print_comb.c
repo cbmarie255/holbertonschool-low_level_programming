@@ -10,7 +10,12 @@ int x;
 for (x = '0' ; x <= '9' ; x++)
 {
 putchar(x);
+if (x < '9') 
+{
+putchar(',');
+putchar(' ');
 }
-putchar("'x', ");
+}
+putchar('\n');
 return (0);
 }
