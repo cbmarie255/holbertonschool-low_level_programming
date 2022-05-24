@@ -1,22 +1,20 @@
 #include "main.h"
-void print_alphabet_x10(void);
+  
 /**
- * main - check the code.
+ * print_alphabet_x10 - prints lowercase alphabet 10 times
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-while (int alpha = 'a'; alpha<= 'z'; alpha++)
+int x;
+for (x = 'a'; x <= 'z'; x++)
 {
-_putschar(alpha);
+_putchar(x);
+int y;
+while (y < 10)
+{
+return;
+}
 _putchar('\n');
-num = 0;
-while (num = 0)
-{
-print_alphabet_x10(alpha);
-num++;
-}
-return (0);
-}
 }
