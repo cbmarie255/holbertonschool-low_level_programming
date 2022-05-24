@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  *print_last_digit - print the ones place
  *@n: n is the generated number
