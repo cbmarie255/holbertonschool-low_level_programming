@@ -11,8 +11,7 @@ int x;
 for (x = 'a'; x <= 'z'; x++)
 {
 _putchar(x);
-int y;
-while (y < 10)
+while (x < 10)
 {
 return;
 }
