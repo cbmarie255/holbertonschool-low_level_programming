@@ -1,5 +1,4 @@
-#include "main.h"
-  
+#include "main.h" 
 /**
  * print_alphabet_x10 - prints lowercase alphabet 10 times
  *
@@ -13,7 +12,7 @@ for (x = 'a'; x <= 'z'; x++)
 _putchar(x);
 while (x < 10)
 {
-return;
+return('\n',x)
 }
 }
 _putchar('\n');
