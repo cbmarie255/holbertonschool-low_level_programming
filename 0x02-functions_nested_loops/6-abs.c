@@ -4,15 +4,12 @@
  *
  * Return: Always 0.
  */
-int _abs(int)
+int _abs(int j)
 {
 int j
-if (j =< 0)
+if (j < 0)
 {
-((j*(-1));
+j = j * (-1);
 }
-else
-{
-return (0);
-}
+return (j);
 }
