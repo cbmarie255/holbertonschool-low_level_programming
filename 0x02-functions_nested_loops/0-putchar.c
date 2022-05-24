@@ -8,13 +8,14 @@
  */
 int _putchar(char c)
 {
-char idk[] = "_putchar\n";
-int j;
-j = 0;
-while (idk[j] != '\0')
-{
-_putchar(idk[j]);
-j++;
-}
-return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return(0);
 }
