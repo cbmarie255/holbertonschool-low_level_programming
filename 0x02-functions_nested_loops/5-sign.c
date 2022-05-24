@@ -5,6 +5,7 @@
  * Return: Always 0.
  */
 int print_sign(int n)
+{
 for (n > 0)
 {
 _putschar('+');
@@ -25,4 +26,5 @@ _putschar('-');
 _putschar(',');
 _putschar(' ');
 return (-1);
+}
 }
