@@ -7,10 +7,10 @@
  */
 void print_alphabet(void)
 {
-int alpha;
-for (alpha = 'a'; alpha <= 'z'; alpha++)
+int x;
+for (x = 'a'; x <= 'z'; x++)
 {
-_putchar(alpha);
+_putchar(x);
 }
 _putchar('\n');
 }
