@@ -12,7 +12,7 @@ for (x = 'a'; x <= 'z'; x++)
 _putchar(x);
 while (x < 10)
 {
-return('\n',x)
+return(x);
 }
 }
 _putchar('\n');
