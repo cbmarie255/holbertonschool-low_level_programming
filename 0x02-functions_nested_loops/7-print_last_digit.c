@@ -6,7 +6,7 @@
  */
 int print_last_digit(int n)
 {
-for (n = n % 10)
+for (n % 10)
 {
 return(n);
 }
