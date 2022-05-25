@@ -6,19 +6,16 @@
  */
 void times_table(void)
 {
-int c = 0; c++;
-int r = 0; r++;
+int c = 0; 
+int r = 0; 
 int p = 0;
 
-while (c,r < 9)
-{
-for ((r * c == p))
+for ((r * c))
 {
 _putchar((p / 10) + '0');
 _putchar((p % 10) + '0');
 _putchar(',');
 _putchar(' ');
 _putchar('\n');
-}
 }
 }
