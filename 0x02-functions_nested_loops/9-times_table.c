@@ -15,11 +15,11 @@ int p = 0;
 for (c = 0; c <= 9; c++)
 {
 _putchar('0');
-for (r = 1; r <= 9; r+++)
+for (r = 1; r <= 9; r++)
 {
 _putchar(',');
 _putchar(' ');
-p == c * r;
+p = (c * r);
 if (p <= 9)
 {
 _putchar(' ');
