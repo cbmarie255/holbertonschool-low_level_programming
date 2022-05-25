@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * jack_bauer - printing every minute of the day
- *@h: hour
- @m: minute
+ *
  * Return: output
  */
 void jack_bauer(void)
