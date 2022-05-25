@@ -7,9 +7,5 @@
  */
 int add(int a, int b)
 {
-int n;
-for (n = (a + b))
-{
-_putchar(n + 48);
-}
+return(a+b);
 }
