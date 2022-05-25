@@ -8,8 +8,9 @@
 int add(int a, int b)
 {
 int n;
-for (n = add(a, b))
+for (n = 0)
 {
+((n == a + b));
 _putchar(n);
 }
 }
