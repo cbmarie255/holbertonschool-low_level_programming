@@ -3,7 +3,7 @@
  * jack_bauer - printing every minute of the day
  *@h: hour
  @m: minute
- * Return: Always 0.
+ * Return: output
  */
 void jack_bauer(void)
 {
@@ -20,6 +20,5 @@ _putchar((m/10) + '0');
 _putchar((m%10) + '0');
 _putchar('\n');
 }
-return (0);
 }
 }
