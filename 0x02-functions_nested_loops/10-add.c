@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *int add- adding integers
+ *add- adding integers
  *@a: first int
- *
+ *@b: second int
  * Return: Always 0.
  */
 int add(int a, int b)
