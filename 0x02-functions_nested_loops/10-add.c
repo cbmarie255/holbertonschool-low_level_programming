@@ -8,7 +8,7 @@
 int add(int a, int b)
 {
 int n;
-for (n = a + b)
+for (n = (a + b))
 {
 _putchar(n + 48);
 }
