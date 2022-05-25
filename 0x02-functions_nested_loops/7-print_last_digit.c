@@ -1,13 +1,16 @@
 #include "main.h"
 /**
- *print_last_digit - print the ones place
- *@n: n is the generated number
- *Return: Always 0.
+ *print_last_digit - prints the ones place
+ *@j: j is the generated number
+ *Return: Always j.
  */
-int print_last_digit(int r)
+int print_last_digit(int j)
 {
-for (r % 10)
+j = j % 10;
+if (j < 0)
 {
-return(r);
+j = j * (-1);
 }
+_putchar(j + 48);
+return (j);
 }
