@@ -6,13 +6,13 @@
  */
 void times_table(void)
 {
-int c = 0;
-int r = 0;
+int c = 0; c++;
+int r = 0; r++;
 int p = 0;
 
-for (c = 0; c < 9; c++) && (r = 0; r < 9; r++)
+while (c,r < 9)
 {
-while ((r * c == p))
+for ((r * c == p))
 {
 _putchar((p / 10) + '0');
 _putchar((p % 10) + '0');
