@@ -10,7 +10,7 @@ int c = 0;
 int r = 0;
 int p = 0;
 
-for (c = 0; c < 9; c++; r = 0; r < 9; r++)
+for (c = 0; c < 9; c++) && (r = 0; r < 9; r++)
 {
 while ((r * c == p))
 {
