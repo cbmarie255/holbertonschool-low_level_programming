@@ -13,18 +13,15 @@ for (n = n; n <= 98; n++)
 {
 if (n <= 9)
 {
-_putchar(n + 48);
-_putchar(',');
-_putchar(' ');
+printf("%d, ",n)
 }
 else 
 {
-_putchar((n / 10) + 48);
-_putchar((n % 10) + 48);
+printf (%d / 10, n);
+printf (%d % 10, n);
 if (n != 98)
 {
-_putchar(',');
-_putchar(' ');
+printf("%d", n)
 }
 }
 }
