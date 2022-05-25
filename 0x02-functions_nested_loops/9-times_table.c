@@ -1,15 +1,13 @@
 #include "main.h"
 /**
  *times_table - will print an oldschool times table
- *@c: column
- *@r: row
- *@p: product of r & c
+ *
  * Return: Always 0
  */
 void times_table(void)
 {
-int c = 0; 
-int r = 0; 
+int c = 0;
+int r = 0;
 int p = 0;
 
 for (c = 0; c <= 9; c++)
