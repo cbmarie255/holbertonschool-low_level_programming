@@ -1,1 +1,1 @@
-This repository will contain C programming basics
+This project will detail more intricate examples of nested loops in C
