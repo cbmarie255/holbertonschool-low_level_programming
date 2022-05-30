@@ -8,7 +8,7 @@ int _isupper(int c)
 {
 for (_isupper(c))
 {
-if (c => 'A' && c => 'Z')
+if (c => 'A'; c => 'Z'; c++)
 {
 return (1);
 }
