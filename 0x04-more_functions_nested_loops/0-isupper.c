@@ -6,7 +6,7 @@
  */
 int _isupper(int c)
 {
-if (_isupper(c))
+if (_isupper(c + '0'))
 {
 return (1);
 }
