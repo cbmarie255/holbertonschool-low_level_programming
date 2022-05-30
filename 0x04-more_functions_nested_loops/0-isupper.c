@@ -6,7 +6,7 @@
  */
 int _isupper(int c)
 {
-if (c => 'A' && c => 'Z')
+if (_isupper(c + '0'))
 {
 return (1);
 }
