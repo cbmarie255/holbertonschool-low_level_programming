@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * mul - will multiply integers
- *@a - first variable to multiply
+ *@a: first variable to multiply
+ *@b: second variable to multiply
  * Return: product
  */
 int mul(int a, int b)
