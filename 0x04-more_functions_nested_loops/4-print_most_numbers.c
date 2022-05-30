@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _putchar - will use a variable to display information
- *@n: will represent numbers 0 to 9
+ * print_most_numbers - will use a variable to display information
+ *
  * Return: n
  */
 void print_most_numbers(void)
