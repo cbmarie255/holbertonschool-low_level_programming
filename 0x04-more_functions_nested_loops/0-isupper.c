@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 /**
  * _isupper - checks for an uppercase letter
  *@c: character used to check for uppercase letter
@@ -7,15 +6,12 @@
  */
 int _isupper(int c)
 {
-for (_isupper(c))
-{
-if (c => 'A'; c => 'Z'; c++)
+if (c => 'A' && c => 'Z')
 {
 return (1);
 }
 else
 {
 return (0);
-}
 }
 }
