@@ -7,10 +7,10 @@
 void print_line(int n)
 {
 int n;
-char c = _;
+char c = _
 for (n = c)
 {
-_putchar(c + 95);
+_putchar(n + '95');
 _putchar(92);
 _putchar(110);
 _putchar('\n');
@@ -18,6 +18,7 @@ if (n <= 0)
 {
 _putchar(92);
 _putchar(110);
+_putchar('\n');
 }
 }
 }
