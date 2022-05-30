@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _putchar - prints the result of a variable
+ * print_numbers - prints the result of looped integers
  *@n: n represents the result of a statement
  * Return: Always 0.
  */
