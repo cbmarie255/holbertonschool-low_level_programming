@@ -6,12 +6,15 @@
  */
 int _isupper(int c)
 {
-if (_isupper(c + '0'))
+for (_isupper(c))
+{
+if (c => 'A' && c => 'Z')
 {
 return (1);
 }
 else
 {
 return (0);
+}
 }
 }
