@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *_putchar - prints data stored in a variable
- *@n: represents the numbers to print 
+ *more_numbers - prints data stored in a variable
+ *
  *Return: 0 for success
  */
 void more_numbers(void)
