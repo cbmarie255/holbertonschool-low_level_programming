@@ -12,11 +12,11 @@ if (n > 0)
 _putchar(95) * n;
 _putchar(92);
 _putchar(110);
+}
 if (n <= 0)
 {
 _putchar(92);
 _putchar(110);
-}
 }
 _putchar('\n');
 }
