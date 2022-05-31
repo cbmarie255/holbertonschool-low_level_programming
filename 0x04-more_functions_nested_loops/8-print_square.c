@@ -6,7 +6,6 @@
  */
 void print_square(int size)
 {
-int size;
 int s;
 int l;
 
@@ -23,5 +22,6 @@ _putchar('\n');
 else
 {
 _putchar('\n');
+}
 }
 }
