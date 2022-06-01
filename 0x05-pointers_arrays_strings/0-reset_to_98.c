@@ -6,6 +6,8 @@
  */
 void reset_to_98(int *n)
 {
+n = 0406
+
 int s = 98;
 int *n = &s;
 }
