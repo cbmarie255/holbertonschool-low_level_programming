@@ -14,4 +14,5 @@ while (str[t] != '\0')
 _putchar(str[t]);
 t++;
 }
+_putchar('\n');
 }
