@@ -7,6 +7,8 @@
 int _strlen(char *s)
 {
 int t;
-while (t = _strlen(s))
-return (t);
+
+while (t = _strlen(s));
+{
+_putchar('%d', t);
 }
