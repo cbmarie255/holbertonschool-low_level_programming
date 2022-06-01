@@ -10,14 +10,13 @@ int t;
 
 while (s[t] != '\0')
 {
-_putchar(s[t]);
 t++;
 {
 for (t = (t - 1); t >= 0; t--)
 {
 _putchar(t);
 }
+}
+}
 _putchar('\n');
-}
-}
 }
