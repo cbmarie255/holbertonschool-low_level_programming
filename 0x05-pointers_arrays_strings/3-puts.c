@@ -12,6 +12,6 @@ t = 0;
 while (str[t] != '\0')
 {
 _putchar(str[t]);
-t++
+t++;
 }
 }
