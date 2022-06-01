@@ -10,5 +10,5 @@ int t;
 
 while (t = _strlen(s));
 {
-_putchar('%d', t);
+return (t);
 }
