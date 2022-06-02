@@ -14,7 +14,7 @@ for (b = 0; b < n; b++)
 {
 printf("%d, " , a[b]); 
 }
-for (b = 0; b == n; b++)
+for (b = (n - 1); b < n; b++)
 {
 printf("%d\n" , a[b]);
 }
