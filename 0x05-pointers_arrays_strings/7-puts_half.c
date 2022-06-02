@@ -22,8 +22,7 @@ _putchar(str[h]);
 }
 else  
 {
-c = (str[c] - 1);
-for ((h = (c / 2)); h > c; h++)
+for (((h = (c / 2) + 1 )); h > c; h++)
 {
 _putchar(str[h]);
 }
