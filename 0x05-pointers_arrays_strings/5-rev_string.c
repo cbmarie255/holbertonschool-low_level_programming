@@ -13,7 +13,7 @@ int e = s[c];
 while (s[c] != '\0')
 {
 c++;
-for (b = 0; b <= (c - 1); b++)
+for (b = 0; b >= s[c] - 1); b++)
 {
 e--;
 }
