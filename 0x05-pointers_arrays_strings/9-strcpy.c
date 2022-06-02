@@ -16,7 +16,7 @@ while (src[s] != '\0')
 s++;
 dest++;
 }
-*dest[s] = '\0';
+dest[s] = '\0';
 return (temp);
 }
 }
