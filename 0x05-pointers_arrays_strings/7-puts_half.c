@@ -20,9 +20,10 @@ for ((h = (c / 2)); h > c; h++)
 _putchar(str[h]);
 }
 }
-else 
+else  
 {
-for ((h = (c - 1) / 2)); h < c; h++)
+c = (str[c] - 1);
+for ((h = (c / 2)); h > c; h++)
 {
 _putchar(str[h]);
 }
