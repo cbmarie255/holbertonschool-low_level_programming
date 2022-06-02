@@ -6,7 +6,7 @@
  */
 void rev_string(char *s)
 {
-int b = 0;
+int b;
 int c = 0;
 int e = 0;
 
@@ -14,10 +14,9 @@ while (s[c] != '\0')
 {
 c++;
 }
-for (b =0; b < c; b--)
+for (b = 0; b <= (c - 1); b--)
 {
 e--;
-_putchar(s[c]);
 }
 _putchar ('\n');
 }
