@@ -7,7 +7,7 @@
  *Return: always null for success
  */
 char *_strncpy(char *dest, char *src, int n)
-{ 
+{
 int k = 0;
 int f;
 
@@ -16,7 +16,6 @@ for (f = 0; f < n; f++)
 if (src[f])
 {
 dest[k] = src[f];
-k++;
 }
 else
 {
