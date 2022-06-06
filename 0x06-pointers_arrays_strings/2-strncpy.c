@@ -9,13 +9,14 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 int f;
+int k = 0;
 
 for (f = 0; f < n; f++)
 {
 if (src[f])
 {
 dest[f] = src[f];
-f++;
+k++;
 }
 else
 {
