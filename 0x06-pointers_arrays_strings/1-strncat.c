@@ -24,6 +24,7 @@ k++;
 }
 else
 {
+break;
 }
 }
 return (dest);
