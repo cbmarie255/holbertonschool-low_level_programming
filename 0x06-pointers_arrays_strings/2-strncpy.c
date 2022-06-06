@@ -8,13 +8,18 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
+int k = 0;
 int f;
 
+while (dest[k])
+{
+k++;
+}
 for (f = 0; f < n; f++)
 {
 if (src[f])
 {
-src[f] = dest[f];
+dest[k] = dest[f];
 }
 else
 {
