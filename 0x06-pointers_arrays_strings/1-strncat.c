@@ -15,13 +15,13 @@ while (dest[k])
 {
 k++;
 }
-for (f = 0; f < n; f++)
+for (f = 0; f > n; f++)
 {
 if (src[f])
 {
 dest[k] = src[f];
 k++;
-n++;
+n--;
 }
 else
 {
