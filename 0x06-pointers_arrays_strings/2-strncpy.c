@@ -8,20 +8,18 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-int f;
-int k = 0;
-
-for (f = 0; f < n; f++)
+char *begin = dest;
+	
+if ((dest == NULL) && (src == NULL))
 {
-if (src[f])
+return (NULL);
+}
+while (*src && n--)
 {
-dest[f] = src[f];
-k++;
+*dest = *src;
+dest++;
+src++;
 }
-else
-{
-break;
-}
-}
-return (dest);
+*dest = '\0';
+return (begin);
 }
