@@ -6,4 +6,14 @@
  *Return: always null for success
  */
 char *string_toupper(char *)
+{
+int i;
 
+for (i = 0; *[i] != '\0'; i++)
+{
+if (*[i] >= 'a' && *[i] <= 'z')
+{
+*[i] = *[i] - 32;
+}
+}
+}
