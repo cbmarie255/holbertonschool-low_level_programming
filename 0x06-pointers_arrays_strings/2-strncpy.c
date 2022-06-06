@@ -8,17 +8,22 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-char *begin = dest;
-	
-while (*src && n--)
+int f;
+
+for (f = 0; f < n; f++)
 {
-*dest = *src;
-dest++;
-src++;
-if (begin < n)
+if (src[f])
 {
-return (NULL);
+dest[f] = src[f];
 }
-*dest = '\0';
-return (begin);
+else
+{
+break;
+}
+for (f = f; f < n; f++)
+{
+dest[f] = '\0'
+}
+}
+return (dest);
 }
