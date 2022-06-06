@@ -12,7 +12,7 @@ int f;
 
 for (f = 0; f < n; f++)
 {
-if (src[f])
+while (src[f])
 {
 dest[f] = src[f];
 }
@@ -22,7 +22,7 @@ break;
 }
 for (f = f; f < n; f++)
 {
-*dest[f] = '\0';
+dest[f] = '\0';
 }
 }
 return (dest);
