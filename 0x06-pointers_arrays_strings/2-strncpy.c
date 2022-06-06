@@ -9,10 +9,22 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 int k = 0;
+int f;
 
-for (n = 0; src[n] != '\0'; n++)
+while (dest[k])
 {
-dest[k] = src[n];
+k++;
 }
-dest[k] = '\0';
+for (f = 0; f < n; f++)
+{
+if (src[f])
+{
+dest[k] = src[f];
+}
+else
+{
+break;
+}
+}
+return (dest);
 }
