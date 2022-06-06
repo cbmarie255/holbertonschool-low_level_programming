@@ -15,7 +15,7 @@ for (f = 0; f < n; f++)
 {
 if (src[f])
 {
-dest[k] = src[f];
+dest[f] = src[f];
 k++;
 }
 else
