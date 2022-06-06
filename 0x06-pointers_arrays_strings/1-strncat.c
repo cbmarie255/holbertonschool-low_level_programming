@@ -19,7 +19,8 @@ for (f = 0; f < n; f++)
 {
 if (src[f])
 {
-dest[k] = dest[f];
+dest[k] = src[f];
+dest[f] = dest[k];
 k++;
 }
 else
