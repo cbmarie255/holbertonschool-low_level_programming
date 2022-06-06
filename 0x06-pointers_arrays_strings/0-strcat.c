@@ -20,4 +20,5 @@ dest[k] = src[f];
 f++;
 k++;
 }
+return (dest);
 }
