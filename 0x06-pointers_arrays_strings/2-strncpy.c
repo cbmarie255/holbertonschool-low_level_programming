@@ -24,6 +24,6 @@ for (f = f; f < n; f++)
 {
 dest[f] = '\0';
 }
-return (dest);
 }
+return (dest);
 }
