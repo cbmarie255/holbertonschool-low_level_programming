@@ -10,15 +10,14 @@ char *_strncpy(char *dest, char *src, int n)
 {
 char *begin = dest;
 	
-if ((dest == NULL) && (src == NULL))
-{
-return (NULL);
-}
 while (*src && n--)
 {
 *dest = *src;
 dest++;
 src++;
+if (begin < n)
+{
+return (NULL);
 }
 *dest = '\0';
 return (begin);
