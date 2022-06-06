@@ -9,15 +9,22 @@
 char *_strncat(char *dest, char *src, int n)
 {
 int k = 0;
+int f;
 
 while (dest[k])
 {
 k++;
 }
-for (n = 0; src[n] > dest[k]; n++)
+for (f = 0; f > n; f++)
 {
-dest[k] = src[n];
+if (src[f])
+{
+dest[k] = src[f];
 k++;
+}
+else
+{
+}
 }
 return (dest);
 }
