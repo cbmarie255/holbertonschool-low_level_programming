@@ -14,7 +14,7 @@ while (dest[k])
 {
 k++;
 }
-while (src [f])
+while (src[f])
 {
 dest[k] = src[f];
 f++;
