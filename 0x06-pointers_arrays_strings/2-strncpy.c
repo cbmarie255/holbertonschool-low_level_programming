@@ -20,6 +20,7 @@ for (f = 0; f < n; f++)
 if (src[f])
 {
 dest[k] = src[f];
+k++;
 }
 else
 {
