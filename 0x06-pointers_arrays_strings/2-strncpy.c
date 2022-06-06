@@ -22,7 +22,7 @@ break;
 }
 for (f = f; f < n; f++)
 {
-dest[f] = '\0';
+*dest[f] = '\0';
 }
 }
 return (dest);
