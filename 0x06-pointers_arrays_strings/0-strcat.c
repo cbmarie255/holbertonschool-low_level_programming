@@ -18,5 +18,6 @@ while (src[f])
 {
 dest[k] = src[f];
 f++;
+k++;
 }
 }
