@@ -14,7 +14,7 @@ while (dest[k])
 {
 k++;
 }
-for (n = 0; src[n] >= dest[k]; n++)
+for (n = 0; src[n] > dest[k]; n++)
 {
 dest[k] = src[n];
 k++;
