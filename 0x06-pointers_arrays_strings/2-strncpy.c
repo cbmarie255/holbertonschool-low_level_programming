@@ -7,13 +7,21 @@
  *Return: always null for success
  */
 char *_strncpy(char *dest, char *src, int n)
+{ 
+int k = 0;
+int f;
+
+for (f = 0; f < n; f++)
 {
-while (*src && n--)
+if (src[f])
 {
-*dest = *src;
-dest++;
-src++;
+dest[k] = src[f];
+k++;
 }
-*dest = '\0';
+else
+{
+break;
+}
+}
 return (dest);
 }
