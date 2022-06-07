@@ -8,15 +8,11 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int k;
+unsigned int k;
 
-	for (k = 0; k < n; k++)
-	{
-		src[k] = dest[k];
-	}
-	for (k = k; k < n; k++)
-	{
-		dest[k] = '\0';
-	}
-	return (dest);
+for (k = 0; k < n; k++)
+{
+src[k] = dest[k];
+}
+return (dest);
 }
