@@ -11,12 +11,12 @@ int k;
 
 while (*s)
 {
-	s++;
 	for (k = 0; accept[k]; k++)
 	{
-		*s == accept[k];
+		if (*s == accept[k])
 		return (s);
 	}
+	s++;
 }
 return ('\0');
 }
