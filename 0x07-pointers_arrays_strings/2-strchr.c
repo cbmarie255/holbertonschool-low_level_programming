@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_strchr - function returns a pointer to the 1st occurance of the character
- *@s: string used 
+ *@s: string used
  *@c: given by the prompt
  *Return: a pointer to the first occurance
  */
