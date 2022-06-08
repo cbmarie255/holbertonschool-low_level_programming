@@ -9,12 +9,17 @@
 void print_diagsums(int *a, int size)
 {
 int k;
+int f;
 int d1 = 0;
 int d2 = 0;
-for (k = 0; k < size; k++)
-{
-d1 += a[k][k];
-d2 += a[k][size - k - 1];
-}
+	for (k = 0; k < size * size; k += size + 1)
+	{
+	d1 += a[k];
+	}
+	f = size - 1;
+	for (f = size - 1; f < size * size - 1; f += size - 1)
+	{
+		d2 += a[f];
+	}
 printf("%d, %d", d1, d2);
 }
