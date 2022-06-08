@@ -29,6 +29,10 @@ for (haystack = haystack; *haystack != 0; haystack += 1)
 		{
 			break;
 		}
+		if (*f == 0)
+		{
+			return (haystack);
+		}
 	}
 	f = needle;
 }
