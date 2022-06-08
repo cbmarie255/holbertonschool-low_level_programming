@@ -2,8 +2,6 @@
 /**
  *print_chessboard - will print a given chessboard
  *@a: array of characters
- *@row: rows
- *@column: column
  *Return: always null for success
  */
 void print_chessboard(char (*a)[8])
