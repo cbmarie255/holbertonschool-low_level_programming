@@ -21,5 +21,5 @@ int d2 = 0;
 	{
 		d2 += a[f];
 	}
-printf("%d, %d", d1, d2);
+printf("%d, %d\n", d1, d2);
 }
