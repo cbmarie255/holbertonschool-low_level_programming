@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  *prereq - will find the squareroot of a natural int
- *_sqrt_recursion - prereq
  *@f: number squared
  *@k: output of f squared
  *Return: -1, 0
@@ -22,6 +21,12 @@ else
 	}
 return (1);
 }
+
+/**
+ *_sqrt_recursion - will find the squareroot of a natural int
+ *@n: number provided by prompt
+ *Return: -1, 0
+ */
 
 int _sqrt_recursion(int n)
 {
