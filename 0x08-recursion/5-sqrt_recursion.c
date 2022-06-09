@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- *_sqrt_recursion - will find the squareroot of a natural int
- *prereq - will find out if product is multiplying itself
- *@n: number provided by main.c
+ *prereq - will find the squareroot of a natural int
+ *_sqrt_recursion - prereq
  *@f: number squared
  *@k: output of f squared
  *Return: -1, 0
