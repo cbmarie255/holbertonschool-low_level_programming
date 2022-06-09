@@ -17,7 +17,8 @@ char *leet(char *s)
 		{
 			*s = number[k];
 		}
-	s++;
+
 	}
+	s++;
 	return (replacement);
 }
