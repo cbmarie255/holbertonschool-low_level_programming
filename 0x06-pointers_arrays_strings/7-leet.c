@@ -15,7 +15,10 @@ char *leet(char *s)
 	{
 		for (k = 0; letter[k]; k++)
 		{
+			if (*s == letter[k])
+			{
 			*s = number[k];
+			}
 		}
 	s++;
 	}
