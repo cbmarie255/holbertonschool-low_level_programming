@@ -20,7 +20,7 @@ while (*(s + k))
 		}
 		f++;
 	}
-	if (!*(accept + f))
+	if (s[k] = accept)
 	{
 		return (k);
 	}
