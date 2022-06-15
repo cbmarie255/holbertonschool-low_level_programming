@@ -5,10 +5,9 @@
  *main - printing arguments
  *@argc: argument count
  *@argv: argument vector
- *@k: variable used to count
  *Return: count
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int k;
 
