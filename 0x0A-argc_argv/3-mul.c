@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  *
@@ -7,20 +8,13 @@
  *
  *
  */
-int main(void)
-{
-	int a, b, product;
-
-
-	scanf("%lf %lf", &a, &b);
-	
-	if (argc != 2)
+int main(int argc, char *argv[])
+{	
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	product = a * b;
-
-	printf("%lf", product);
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
