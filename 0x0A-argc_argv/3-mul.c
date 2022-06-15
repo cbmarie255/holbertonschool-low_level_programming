@@ -3,13 +3,13 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
- *
+ *main - main
+ *@argc: argument count
+ *@argv: argument vector
+ *Return: int
  */
 int main(int argc, char *argv[])
-{	
+{
 	if (argc != 3)
 	{
 		printf("Error\n");
