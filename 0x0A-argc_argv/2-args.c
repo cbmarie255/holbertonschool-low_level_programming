@@ -8,7 +8,7 @@
  *@k: variable used to count
  *Return: count
  */
-int main(int argc, char *argv[])
+int main (int argc, char *argv[])
 {
 	int k;
 
