@@ -8,8 +8,13 @@
  *@k: variable used to count
  *Return: count
  */
-int main(int argc)
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argc);
+	int k;
+
+	for (k = 0; k < argc ; k++)
+	{
+		printf("%s\n", argv[k]);
+	}
 	return (0);
 }
