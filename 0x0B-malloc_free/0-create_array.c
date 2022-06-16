@@ -24,6 +24,6 @@ char *create_array(unsigned int size, char c)
 		k++;
 	}
 	pointer[k] = '\0';
-	free(pointer);
 	return (pointer);
+	free(pointer);
 }
