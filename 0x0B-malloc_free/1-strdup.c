@@ -21,6 +21,10 @@ char *_strdup(char *str)
 		k++;
 	}
 	duplicate = malloc(k + 1);
+	if (duplicate == NULL)
+	{
+		return (NULL);
+	}
 	holder = duplicate;
 	while (*str)
 	{
