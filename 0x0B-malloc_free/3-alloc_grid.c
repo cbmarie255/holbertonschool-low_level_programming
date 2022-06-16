@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ *alloc_grid - will return a pointer to a 2-dimensional array of ints
+ *@width: will print the row
+ *@height: will print the coloumn
+ *Return: null or success
+ */
+
 int **alloc_grid(int width, int height)
 {
 	int **pointer;
@@ -25,7 +32,7 @@ int **alloc_grid(int width, int height)
 			free(pointer);
 			return (NULL);
 		}
-		k++;
+	k++;
 	}
 	for (k = 0; k < height; k++)
 	{
