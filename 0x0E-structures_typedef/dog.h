@@ -1,5 +1,5 @@
-#ifndef header_file dog.h
-#define header_file dog.h
+#ifndef _DOG_H_
+#define _DOG_H_
 /**
  *struct dog - will idenitfy a dog's profile
  *@name: the dog's name
