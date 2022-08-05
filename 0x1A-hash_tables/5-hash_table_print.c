@@ -5,7 +5,7 @@
  *@ht: pointer to hash table
  *Return: void
  */
- void hash_table_print(const hash_table_t *ht)
+void hash_table_print(const hash_table_t *ht)
 {
 	int commaSpace = 0;
 	hash_node_t *printNode;
