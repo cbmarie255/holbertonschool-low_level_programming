@@ -15,19 +15,12 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *copy_key = NULL;
 	hash_node_t *tempNode = 0;
 
-	if (ht == NULL || key == NULL || value == NULL)
+	if (ht == NULL || key == NULL)
 		return (0);
 	if (strcmp(key, "\0") == 0)
 		return (0);
 	copy_value = strdup(value);
-	if (copy_value == NULL)
-		return (0);
 	copy_key = strdup(key);
-	if (copy_key == NULL)
-	{
-		free(copy_value);
-		return (0);
-	}
 	newNode = malloc(sizeof(hash_node_t));
 	if (newNode == NULL)
 	{
