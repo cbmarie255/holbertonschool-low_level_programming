@@ -13,15 +13,15 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	hash_node_t  *newNode = NULL;
 	unsigned long int keyJawn = 0;
 	char *copy_key = NULL;
-	hash_node_t *tempNode = NULL;
 
 	if (ht == NULL || key == NULL || value == NULL)
 		return (0);
-	else if (strlen(key) == 0)
+	if (strlen(key) == 0)
 		return (0);
 	copy_value = strdup(value);
 	if (copy_value == NULL)
 		return (0);
+	copy_key = strdup(key);
 	if (copy_key == NULL)
 	{
 		free(copy_value);
@@ -32,18 +32,19 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 		free(copy_value);
 		free(copy_key);
+		free(newNode);
 		return (0);
 	}
 	newNode->key = copy_key;
 	newNode->value = copy_value;
 	newNode->next = NULL;
-	keyJawn = key_index((unsigned char *)key, ht->size);
+	keyJawn = key_index((const unsigned char *)key, ht->size);
 	if ((ht->array)[keyJawn] != NULL)
 	{
-		tempNode = (ht->array)[keyJawn];
-		while (tempNode != NULL)
+		newNode = ht->array[keyJawn];
+		while (newNode != NULL)
 		{
-			if (strcmp(tempNode->key, copy_key) == 0)
+			if (strcmp(newNode->key, copy_key) == 0)
 			{
 				free(ht->array[keyJawn]->value);
 				(ht->array[keyJawn])->value = copy_value;
@@ -51,10 +52,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 				free(newNode);
 				return (1);
 			}
-			tempNode = tempNode->next;
+			newNode->next = ht->array[keyJawn];
 		}
-		tempNode = (ht->array)[keyJawn];
-		newNode->next = tempNode;
 		(ht->array)[keyJawn] = newNode;
 	}
 	else
