@@ -10,10 +10,10 @@
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	char *copy_value = NULL;
-	hash_node_t  *newNode;
+	hash_node_t  *newNode = NULL;
 	unsigned long int keyJawn = 0;
 	char *copy_key = NULL;
-	hash_node_t *tempNode;
+	hash_node_t *tempNode = NULL;
 
 	if (ht == NULL || key == NULL || value == NULL)
 		return (0);
