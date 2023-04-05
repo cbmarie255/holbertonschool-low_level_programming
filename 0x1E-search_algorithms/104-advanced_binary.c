@@ -34,24 +34,24 @@ void print_array(const int *array, size_t size)
  */
 int advanced_binary(int *array, size_t size, int value)
 {
-    int mid = (size - 1) / 2;
-    int index = advanced_binary(array + mid + 1, size - mid - 1, value);
-    
-    if (array == NULL || size == 0)
-        return (-1);
+int search = size / 2;
 
-    printf("Searching in array: ");
-    print_array(array, size);
+if (array == NULL)
+return (-1);
 
-    if (array[mid] == value)
-        return (mid);
+printf("Searching in array: ");
+print_array(array, size);
 
-    if (array[mid] < value)
-    {
-        return (index == -1 ? -1 : mid + 1 + index);
-    }
-    else
-        return advanced_binary(array, mid + 1, value);
+if (array[search] == value && array)
+return (search);
 
-    return (-1);
+if (array[search] > value && array)
+{
+return (advanced_binary(array, search - 1, value));
+}
+else
+{
+return (advanced_binary(array + search, search, value));
+}
+return (-1);
 }
