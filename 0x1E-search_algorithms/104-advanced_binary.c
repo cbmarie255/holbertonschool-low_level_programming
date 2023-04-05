@@ -34,7 +34,7 @@ void print_array(const int *array, size_t size)
  */
 int advanced_binary(int *array, size_t size, int value)
 {
-int search = size / 2;
+int key = size / 2;
 
 if (array == NULL)
 return (-1);
@@ -42,16 +42,16 @@ return (-1);
 printf("Searching in array: ");
 print_array(array, size);
 
-if (array[search] == value && array)
-return (search);
+if (array[key] == value && array)
+return (key);
 
-if (array[search] > value && array)
+if (array[key] > value && array)
 {
-return (advanced_binary(array, search - 1, value));
+return (advanced_binary(array, key - 1, value));
 }
 else
 {
-return (advanced_binary(array + search, search, value));
+return (advanced_binary(array + key, key, value));
 }
 return (-1);
 }
