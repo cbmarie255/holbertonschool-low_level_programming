@@ -10,15 +10,15 @@
  */
 void print_subarray(int *array, size_t left, size_t right)
 {
-    size_t start = left;
+	size_t start = left;
 
-    printf("Searching in array: ");
-    while (start < right)
-    {
-        printf("%d, ", array[start]);
-        start++;
-    }
-    printf("%d\n", array[start]);
+	printf("Searching in array: ");
+	while (start < right)
+	{
+	printf("%d, ", array[start]);
+	start++;
+	}
+	printf("%d\n", array[start]);
 }
 
 /**
@@ -50,3 +50,4 @@ int binary_search(int *array, size_t size, int value)
 
 	return (-1);
 }
+
