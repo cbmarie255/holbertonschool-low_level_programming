@@ -7,7 +7,7 @@
  * linear_search - find a specific value in an array using linear search
  * @array: pointer to first element
  * @size: number of elements
- * @value: searching value 
+ * @value: searching value
  *
  * Return: 1st index where value is located or -1 if not found or array is null
  */
