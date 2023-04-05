@@ -34,10 +34,11 @@ void print_array(const int *array, size_t size)
  */
 int advanced_binary(int *array, size_t size, int value)
 {
+    int mid = (size - 1) / 2;
+    int index = advanced_binary(array + mid + 1, size - mid - 1, value);
+    
     if (array == NULL || size == 0)
         return (-1);
-
-    int mid = (size - 1) / 2;
 
     printf("Searching in array: ");
     print_array(array, size);
@@ -47,7 +48,6 @@ int advanced_binary(int *array, size_t size, int value)
 
     if (array[mid] < value)
     {
-        int index = advanced_binary(array + mid + 1, size - mid - 1, value);
         return (index == -1 ? -1 : mid + 1 + index);
     }
     else
