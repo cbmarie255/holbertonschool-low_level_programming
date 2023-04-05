@@ -30,22 +30,23 @@ void print_subarray(int *array, size_t left, size_t right)
  */
 int binary_search(int *array, size_t size, int value)
 {
-    if (!array)
-        return (-1);
+	size_t left = 0;
+	size_t right = size - 1;
+	size_t middle;
 
-    size_t i = 0, j = size - 1, mid; i <= j;
+	if (!array)
+		return (-1);
+	while (left <= right)
+	{
+		print_subarray(array, left, right);
+		middle = (left + right) / 2;
+		if (array[middle] == value)
+			return (middle);
+		else if (array[middle] > value)
+			right = middle - 1;
+		else if (array[middle] < value)
+			left = middle + 1;
+	}
 
-    for (i = 0, j = size - 1, mid; i <= j;)
-    {
-        print_subarray(array, i, j);
-        mid = (i + j) / 2;
-        if (array[mid] == value)
-            return (mid);
-        else if (array[mid] > value)
-            j = mid - 1;
-        else if (array[mid] < value)
-            i = mid + 1;
-    }
-
-    return (-1);
+	return (-1);
 }
